@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorPrimaryVariant">@color/gold</item>
+        <item name="android:statusBarColor">@color/gold</item>
+
+        <!-- ADD THIS -->
+        <item name="toolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <!-- ADD THESE BELOW -->
+    <style name="MyToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/MyTitleText</item>
+    </style>
+
+    <style name="MyTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
