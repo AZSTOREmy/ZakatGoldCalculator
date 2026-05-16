@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
 
             shareIntent.putExtra(
                     Intent.EXTRA_TEXT,
-                    "Download my app here: https://github.com/yourusername/zakat-gold-calculator"
+                    "Download my app here: https://github.com/AZSTOREmy/ZakatGoldCalculator"
             );
 
             startActivity(Intent.createChooser(
