@@ -27,7 +27,7 @@ public class AboutActivity extends AppCompatActivity {
 
                 Intent browserIntent = new Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("https://github.com/yourusername")
+                        Uri.parse("https://github.com/AZSTOREmy")
                 );
 
                 startActivity(browserIntent);
